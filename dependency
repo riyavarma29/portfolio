@@ -1,7 +1,0 @@
-pip install flask
-pip install pymongo
-pip install pandas
-pip install numpy
-pip install face_recognition
-pip install opencv-python
-pip install werkzeug
