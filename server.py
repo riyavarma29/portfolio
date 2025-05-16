@@ -28,8 +28,8 @@ attendance_collection = db["attendance"]
 users_collection = db["users"]
 reset_tokens_collection = db['reset_tokens']
 # Email Configuration (replace with your settings)
-EMAIL_SENDER = "riyavarma290404@gmail.com"
-EMAIL_PASSWORD = "rkcl dzcw kwjd dwdi" # Consider using environment variables
+EMAIL_SENDER = ""#write your email here
+EMAIL_PASSWORD = "" # write app password here
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 # Helper function to generate a random token
