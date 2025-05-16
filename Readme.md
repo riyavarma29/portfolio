@@ -1,3 +1,5 @@
+install dependencies by typing below command in terminal:
+
 pip install flask
 pip install pymongo
 pip install pandas
