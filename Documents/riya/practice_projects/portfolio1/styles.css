@@ -1,0 +1,250 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #f0f1f3;
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0d0d1a;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        #navbar h2 {
+            color: #00ffff;
+            font-size: 2em;
+        }
+        .nav-content a, .nav-contact a {
+            margin-left: 2rem;
+            text-decoration: none;
+            color: #b3c7f9;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        .nav-content a:hover, .nav-contact a:hover {
+            color: #00ffff;
+        }
+        .main {
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        #homepic {
+            width: 16em;
+            height: 16em;
+            border-radius: 50%;
+            border: 2px solid #dff4f4;
+        }
+        #heading {
+            font-size: 3rem;
+            color: #00ffff;
+            margin-top: 1rem;
+        }
+        .main span {
+            display: block;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #d4d9f3;
+        }
+        button {
+            margin: 2rem 1rem 0;
+            padding: 0.75rem 1.5rem;
+            background: #00ffff;
+            color: #141e30;
+            border: none;
+            border-radius: 2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+         button:hover {
+            transform: scale(1.1);
+        }
+        #about, #skills, #pro, #contact {
+            padding: 2em;
+            background-color: rgba(12, 19, 38, 0.95);
+            margin: 1rem auto;
+            border-radius: 1.5rem;
+            width: 90%;
+        }
+        #about p, #skills p, #pro p ,#contact p{
+            text-align: center;
+            font-size: 2.5rem;
+            color: #00ffff;
+            margin-bottom: 1.5rem;
+        }
+        .profile img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 10rem;
+            width: 200px;
+            border: 2px solid #d4f4f4;
+        }
+        .cv-btn {
+            display: block;
+            margin: 1rem auto;
+        }
+        .about-description {
+            white-space: wrap;;
+            color: #d4d9f3;
+            line-height: 1.6;
+            margin-top: 1rem;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .box {
+            background: #0b0b17;
+            padding: 1.5rem;
+            border-radius: 1.5rem;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            margin: 1rem 0;
+            transition: transform 0.3s ease;
+        }
+        .box img:hover{
+            transform: scale(1.03);
+        }
+        .tech-stack span {
+            display: inline-block;
+            background: #243b55;
+            color: #00ffff;
+            padding: 0.4rem 1rem;
+            border-radius: 1rem;
+            margin: 0.3rem;
+        }
+        .tech-used, .project-description {
+            color: #d4d9f3;
+        }
+        .skill-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2.5rem;
+            padding: 2rem 0;
+            }
+
+        .skill-category {
+            background: #0b0b17;
+            padding: 2rem;
+            border-radius: 1.5rem;
+            width: 280px;
+            transition: transform 0.3s ease;
+            text-align: left;
+            }
+
+        .skill-category:hover {
+            transform: scale(1.03);
+            }
+
+        .skill-category h3 {
+            color: #7d7bf1;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #927eb0;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            }
+
+         .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+            }
+
+        .skill-category li {
+            font-size: 1.1rem;
+            color: #6aa6a6;
+            margin: 0.6rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            }
+
+        .skill-category i {
+            color: #93b1bb;
+            font-size: 1.2rem;
+            }
+
+        #contact {
+            text-align: center;
+            }
+        #contact h5 {
+            font-size: 1rem;
+            font-weight: normal;
+            color: #d4d9f3;
+            margin-bottom: 2rem;
+            }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            }
+
+        .contact-info div {
+            background: #0b0b17;
+            padding: 1rem 1.5rem;
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+            }
+        .contact-info a,.contact-info span {
+            color: #6aa6a6;
+            font-weight: bold;
+            text-decoration: none;
+            }
+
+
+        footer {
+            background-color: #0b0b17;
+            color: #888ea2;
+            text-align: center;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        @media screen and (max-width: 768px) {
+            .nav-content a{
+                font-size: 0.7em;
+            }
+            .nav-contact a{
+                display: none;
+            }
+             #navbar h2 {
+            font-size: 0.9em;
+        }
+        .main #heading{
+            font-size: 1.8em;
+            margin-top: 2em;
+        }
+         #about p, #skills p, #pro p ,#contact p{
+            font-size: 1.8em;
+         }
+        .main button{
+            padding: 0.8em;
+            margin-top: 5em;
+         }
+        }
