@@ -109,7 +109,7 @@
             padding: 1.5rem;
             border-radius: 1.5rem;
             width: 90%;
-            max-width: 500px;
+            max-width: 25em;
             text-align: center;
             box-shadow: 0 4px 12px rgba(0,0,0,0.4);
         }
